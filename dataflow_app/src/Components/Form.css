@@ -1,0 +1,58 @@
+/* Form.css */
+
+/* Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #00fcea, #00c700); /* Turquoise to green gradient */
+  }
+  
+  /* Container Styles */
+  .container {
+    text-align: center;
+  }
+  
+  /* Form Styles */
+  .form {
+    display: block;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Group Styles */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  /* Label Styles */
+  label {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Input Styles */
+  input[type='url'],
+  input[type='text'],
+  input[type='password'] {
+    width: 100%; /* Full width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333; /* Text color */
+  }
+  
+  /* Placeholder Styles */
+  input::placeholder {
+    color: #999; 
+  }
+  
